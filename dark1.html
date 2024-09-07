@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>dark</title>
+	<style>
+     @keyframes rgbShift {
+  0% { background-color: red; }
+  33% { background-color: green; }
+  66% { background-color: blue; }
+  100% { background-color: red; }
+}
+
+body {
+  animation: rgbShift 5s infinite;
+}
+    }
+    </style>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Вас приведствует web.dark</h1>
+        <nav>
+            <ul>
+                <li><a href="#"> Главная страница </a></li>
+                <li><a href="#"> О нас "АДМИНЕСТРАЦИЯ" этой веб страници. </a></li>
+                <li><a href="#"> Контакты +77072128024 </a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section>
+            <h2>Главные новости</h2>
+            <p>Сегодня было совершено наподение банды мангуста.</p>
+        </section>
+        <section>
+            <h2>Свяжитесь с нами</h2>
+            <form>
+                <label for="name">Имя:</label>
+                <input type="text" id="name" name="name" required>
+                <label for="email">Электронная почта:</label>
+                <input type="email" id="email" name="email" required>
+                <label for="message">Сообщение:</label>
+                <textarea id="message" name="message" rows="4" required></textarea>
+                <button type="submit">Отправить</button>
+            </form>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; Все права защищены.</p> 
+		<button id="change-color-btn">Оценить</button>
+    </footer>
+</body>
+</html>
